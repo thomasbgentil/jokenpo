@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "5c434c10e39d5d01c21da943.png",
+      "filename" : "pedra.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "5c434c10e39d5d01c21da943@2x.png",
+      "filename" : "pedra@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "5c434c10e39d5d01c21da943@3x.png",
+      "filename" : "pedra@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

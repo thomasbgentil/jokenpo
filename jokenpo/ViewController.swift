@@ -18,7 +18,8 @@ class ViewController: UIViewController {
     
     @IBAction func buttonArma(_sender: UIButton!) {
         
-        let jokenpoArray = [#imageLiteral(resourceName: "5c434c10e39d5d01c21da943-1"),#imageLiteral(resourceName: "pngfind.com-scissor-icon-png-5408516"),#imageLiteral(resourceName: "5c434c10e39d5d01c21da943") ]
+        let jokenpoArray = [ #imageLiteral(resourceName: "papel"),  #imageLiteral(resourceName: "pedra"),  #imageLiteral(resourceName: "tesoura")]
+       
         
         imageViewOne.image = jokenpoArray.randomElement()
         imageViewTwo.image = jokenpoArray.randomElement()

@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "5a38e110140982.78947236151367707208212322.png",
+      "filename" : "papel.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "5a38e110140982.78947236151367707208212322@2x.png",
+      "filename" : "papel@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "5a38e110140982.78947236151367707208212322@3x.png",
+      "filename" : "papel@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

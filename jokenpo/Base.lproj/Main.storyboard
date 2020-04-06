@@ -36,11 +36,11 @@
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pngfind.com-scissor-icon-png-5408516" translatesAutoresizingMaskIntoConstraints="NO" id="7SK-xJ-Gxo">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tesoura" translatesAutoresizingMaskIntoConstraints="NO" id="7SK-xJ-Gxo">
                                 <rect key="frame" x="212" y="305" width="192" height="208"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="5c434c10e39d5d01c21da943" translatesAutoresizingMaskIntoConstraints="NO" id="dxw-yX-dTQ">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pedra" translatesAutoresizingMaskIntoConstraints="NO" id="dxw-yX-dTQ">
                                 <rect key="frame" x="10" y="305" width="192" height="208"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -60,8 +60,7 @@
                                     <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonArma:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CWq-oq-kxH"/>
-                                    <action selector="buttonPedra:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NoL-RG-5om"/>
+                                    <action selector="buttonArmaWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b71-Vy-V9K"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1yt-lK-iSd">
@@ -70,6 +69,9 @@
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="33"/>
                                 <state key="normal" title="Papel"/>
+                                <connections>
+                                    <action selector="buttonArmaWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rMk-vC-LqU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NGb-CB-33N">
                                 <rect key="frame" x="263" y="673" width="130" height="45"/>
@@ -77,6 +79,9 @@
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="33"/>
                                 <state key="normal" title="Tesoura"/>
+                                <connections>
+                                    <action selector="buttonArmaWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oZj-3L-BVs"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="placeholderTextColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
@@ -94,7 +99,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="5c434c10e39d5d01c21da943" width="427" height="252.5"/>
-        <image name="pngfind.com-scissor-icon-png-5408516" width="283" height="168"/>
+        <image name="pedra" width="427" height="252.5"/>
+        <image name="tesoura" width="283" height="168"/>
     </resources>
 </document>
